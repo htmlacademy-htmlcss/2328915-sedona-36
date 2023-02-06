@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Георгий Лесниченко](https://up.htmlacademy.ru/htmlcss/36/user/2328915).
-* Наставник: [`Сергей Остаповец`](https://htmlacademy.ru/profile/seraphim)
+* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim)
 
 ---
 
