@@ -8,7 +8,7 @@
   <body>
     <header class="page-header">
       <a class="navigation-link" href="index.html">
-        <img class="logo" src="#" alt="Логотип Седоны">
+        <img class="logo" src="images/header/logo.svg" alt="Логотип Седоны" width="140" height="70">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -22,14 +22,18 @@
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
+      </nav>
+      <nav class="navigation-user">
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
+              <img src="images/header/search.svg">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
+              <img src="images/header/heart.svg">
               <span class="visually-hidden">Лайк</span>
             </a>
           </li>
@@ -40,8 +44,12 @@
       </nav>
     </header>
     <main class="main-index">
-      <img class="location" src="#" alt="Каньон возле Седоны">
-      <h1 class="visually-hidden">Седона</h1>
+      <section class="hero">
+        <div class="hero-background">
+          <img src="images/hero/hero-background.jpg" alt="Каньон возле Седоны" width="1200" height="485">
+        </div>
+        <h1 class="visually-hidden">Седона</h1>
+      </section>
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <h3 class="title-sedona">Седона — небольшой городок в Аризоне,
@@ -54,7 +62,7 @@
               <p class="advantages-description description-image">Седона — не аттракцион для туристов, там течёт своя
                 жизнь</p>
               <div class="advantages-image">
-                <img class="location-sedona" src="#" alt="локация Седоны">
+                <img class="location-sedona" src="images/advantages/location-sedona-1.jpg" alt="локация Седоны" width="800" height="385">
               </div>
             </div>
           </li>
@@ -79,7 +87,7 @@
           <li>
             <div class="advantages-container">
               <div class="advantages-image">
-                <img class="location-sedona" src="#" alt="Мост дьявола">
+                <img class="location-sedona" src="images/advantages/location-sedona-2.jpg" alt="Мост дьявола" width="800" height="385">
               </div>
               <h4 class="advantages-title">Там есть мост дьявола</h4>
               <p class="advantages-description description-image">Да, по нему можно пройти! Если вы осмелитесь,
@@ -94,19 +102,24 @@
         <p class="description-title-1">Опытный персонал и качественное обслуживание!</p>
         <ul class="conditions-list">
           <li class="conditions-item">
-            <img src="#" alt="Иконка жилья">
+            <div class="conditions-icon">
+              <img src="images/conditions/home.svg" alt="Иконка жилья">
+            </div>
             <h4 class="conditions-title">Жильё</h4>
             <p class="conditions-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="conditions-item">
-            <img class="icon" src="#" alt="Иконка жилья">
+            <div class="conditions-icon">
+              <img src="images/conditions/food.svg" alt="Иконка бургера">
             </div>
             <h4 class="conditions-title">Еда</h4>
             <p class="conditions-description">Всегда заказывайте
               топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="conditions-item">
-            <img class="icon" src="#" alt="Иконка бургера">
+            <div class="conditions-icon">
+              <img src="images/conditions/present.svg" alt="Иконка сувенира">
+            </div>
             <h4 class="conditions-title">Сувениры</h4>
             <p class="conditions-description">Не только китайского,
               но и настоящего местного производства!</p>
@@ -120,7 +133,7 @@
       </div>
       <div class="mailing-list">
         <h3 class="title-sedona ">Подпишитесь на рассылку</h3>
-        <p class="description-title">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p class="description-title">Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
         <form class="email">
           <input type="email" id="email-user" placeholder="Ваш e-mail">
           <button class="button button-submit" type="submit">Подписаться</button>
@@ -132,23 +145,26 @@
         <li>
           <a class="social-media" href="#">
             <span class="visually-hidden">Вконтакте</span>
+            <img src="images/footer/vk.svg">
           </a>
         </li>
         <li>
           <a class="social-media" href="#">
             <span class="visually-hidden">Телеграм</span>
+            <img src="images/footer/tg.svg">
           </a>
         </li>
         <li>
           <a class="social-media" href="#">
             <span class="visually-hidden">Ютуб</span>
+            <img src="images/footer/yt.svg">
           </a>
         </li>
       </ul>
       <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a href="#" class="html-academy">
         <span class="visually-hidden">Логотип HTML академии</span>
-        <img class="html-academy" src="#" alt="Логотип HTML академии">
+        <img class="html-academy" src="images/footer/html-logo.svg">
       </a>
     </footer>
   </body>
