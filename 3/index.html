@@ -16,8 +16,8 @@
         </a>
         <nav class="navigation navigation-site">
           <ul class="navigation-list">
-            <li class="navigation-item navigation-link-active">
-              <a class="navigation-link" href="#">Главная</a>
+            <li class="navigation-item">
+              <a class="navigation-link navigation-link-active" href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#">О Седоне</a>
@@ -29,20 +29,20 @@
         </nav>
         <nav class="navigation navigation-user">
           <ul class="navigation-list">
-            <li class="navigation-item">
+            <li class="navigation-item navigation-user-item">
               <a class="navigation-link" href="#">
                 <img src="images/header/search.svg">
                 <span class="visually-hidden">Поиск</span>
               </a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item navigation-user-item">
               <a class="navigation-link" href="#">
                 <img src="images/header/heart.svg">
                 <span class="visually-hidden">Лайк</span>
               </a>
             </li>
-            <li class="navigation-item">
-              <a class="navigation-link navigation-link-button button" href="#">Хочу сюда!</a>
+            <li class="navigation-item navigation-user-item">
+              <a class="navigation-link-button  button" href="#">Хочу сюда!</a>
             </li>
           </ul>
         </nav>
@@ -51,9 +51,7 @@
       <!--Main-->
       <main class="main-index">
         <section class="hero">
-          <div class="hero-background">
-            <img class="hero-welcome" src="images/hero/hero-welcome.svg" alt="Каньон возле Седоны" width="458" height="352">
-          </div>
+          <img class="hero-welcome" src="images/hero/hero-welcome.svg" alt="Каньон возле Седоны." width="458" height="352">
           <h1 class="visually-hidden">Седона</h1>
         </section>
 
@@ -82,7 +80,7 @@
               </div>
             </li>
             <li class="advantages-item">
-              <div class="advantages-container advantages-middle">
+              <div class="advantages-container">
                 <h4 class="advantages-title">Красивая дорога</h4>
                 <p class="advantages-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </div>
@@ -94,9 +92,9 @@
               </div>
             </li>
             <li class="advantages-item">
-                <div class="advantages-image">
-                  <img class="location-sedona" src="images/advantages/location-sedona-2.jpg" alt="Мост дьявола" width="800" height="385">
-                </div>
+              <div class="advantages-image">
+                <img class="location-sedona" src="images/advantages/location-sedona-2.jpg" alt="Мост дьявола" width="800" height="385">
+              </div>
               <div class="advantages-container blue-container-advantages">
                 <h4 class="advantages-title">Там есть мост дьявола</h4>
                 <p class="advantages-description description-image">Да, по нему можно пройти! Если вы осмелитесь,
@@ -153,50 +151,41 @@
         <div class="mailing-list">
           <h3 class="title-sedona search-title">Подпишитесь на рассылку</h3>
           <p class="description-title search-description">Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
-          <form class="email">
-            <label class="label-email">
-            <div class="wrap-input">
-              <input class="input-email" type="email" id="email-user" placeholder="Ваш e-mail">
-              <button class="button button-submit" type="submit">Подписаться</button>
-            </div>
-            </label>
-          </form>
+          <form class="email" action="#" method="get">
+            <label class="visually-hidden" for="email-user">Ваш e-mail</label>
+            <input class="input-email" type="email" id="email-user" placeholder="Ваш e-mail">
+            <button class="button button-submit" type="submit">Подписаться</button>
+        </form>
         </div>
       </main>
 
       <!--Footer-->
       <footer class="page-footer">
-        <div class="footer-wrapper">
-          <ul class="socia-media-list">
-            <li class="social-media-item">
-              <a class="social-media" href="#">
-                <span class="visually-hidden">Вконтакте</span>
-                <img src="images/footer/vk.svg">
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a class="social-media" href="#">
-                <span class="visually-hidden">Телеграм</span>
-                <img src="images/footer/tg.svg">
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a class="social-media" href="#">
-                <span class="visually-hidden">Ютуб</span>
-                <img src="images/footer/yt.svg">
-              </a>
-            </li>
-          </ul>
-          <div class="phone-wrapper">
-            <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-          </div>
-          <div class="logo-html-wrapper">
-            <a href="#" class="html-academy">
-              <span class="visually-hidden">Логотип HTML академии</span>
-              <img class="html-academy" src="images/footer/html-logo.svg">
+        <ul class="socia-media-list">
+          <li class="social-media-item">
+            <a class="social-media" href="#">
+              <span class="visually-hidden">Вконтакте</span>
+              <img src="images/footer/vk.svg">
             </a>
-          </div>
-        </div>
+          </li>
+          <li class="social-media-item">
+            <a class="social-media" href="#">
+              <span class="visually-hidden">Телеграм</span>
+              <img src="images/footer/tg.svg">
+            </a>
+          </li>
+          <li class="social-media-item">
+            <a class="social-media" href="#">
+              <span class="visually-hidden">Ютуб</span>
+              <img src="images/footer/yt.svg">
+            </a>
+          </li>
+        </ul>
+        <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <a href="#" class="html-academy">
+          <span class="visually-hidden">Логотип HTML академии</span>
+          <img class="html-academy" src="images/footer/html-logo.svg">
+        </a>
       </footer>
     </div>
   </body>
