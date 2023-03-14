@@ -808,7 +808,7 @@ body {
 .socia-media-list {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: (1fr)(3);
     grid-template-columns: repeat(3, 1fr);
     min-width: 142px;
     padding: 0;
