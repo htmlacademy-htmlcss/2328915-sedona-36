@@ -808,7 +808,7 @@ body {
 .socia-media-list {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: (1fr)(3);
     grid-template-columns: repeat(3, 1fr);
     min-width: 142px;
     padding: 0;
@@ -1283,6 +1283,10 @@ body {
 }
 
 .preview-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 48px;
     height: 48px;
     margin: 0;
@@ -1300,11 +1304,6 @@ body {
 
 .preview-button:active {
     border: 2px solid #000000;
-}
-
-.image-button {
-    display: block;
-    margin: 16px auto;
 }
 
 .preview-button-current {
