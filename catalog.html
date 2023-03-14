@@ -127,15 +127,15 @@
                   </li>
                 </ul>
               </fieldset>
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group center-fieldset">
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                 <div class="inputs-wrapper-filter">
                   <div class="input-wrapper">
-                    <input class="start-value inputs-start-end" id="label-type-start" type="number" placeholder="0">
+                    <input class="start-value inputs-start-end" id="label-type-start" type="number" min="0" placeholder="0" required>
                     <label class="label-start" for="label-type-start"> от </label>
                   </div>
                   <div class="input-wrapper">
-                      <input class="end-value inputs-start-end" id="label-type-end" type="number" placeholder="9000">
+                      <input class="end-value inputs-start-end" id="label-type-end" type="number" max="9000" placeholder="9000" required>
                       <label class="label-end" for="label-type-end">до</label>
                   </div>
                 </div>
@@ -163,11 +163,9 @@
           <h3 class="search-result">Найдено гостиниц: 38</h3>
           <label class="visually-hidden" for="hotels-sort">Показать гостиницы:</label>
           <select class="sorting" aria-label="Сортировка" id="hotels-sort">
-            <!-- <div class="wrap-sorting"> -->
               <option value="sorting-item" selected>Сначала дешевые</option>
               <option value="sorting-item">Сначала дорогие</option>
               <option value="sorting-item">Популярные</option>
-            <!-- </div> -->
           </select>
           <div class="wrap-buttons">
             <a href="#" class="preview-button preview-button-current">
@@ -213,7 +211,7 @@
               </a>
             <div class="grid-container">
               <span class="hotel">Гостиница</span>
-              <span class="hotel-price">От 4000р</span>
+              <span class="hotel-price">От 4000 ₽</span>
               <a href="#" class="button-more button" aria-disabled="true">Подробнее</a>
               <a href="#" class="button-favorites button">В избранное</a>
               <div class="stars-container">
@@ -232,7 +230,7 @@
             </a>
             <div class="grid-container">
               <span class="hotel">Гостиница</span>
-              <span class="hotel-price">От 5000р</span>
+              <span class="hotel-price">От 5000 ₽</span>
               <a href="#" class="button-more button">Подробнее</a>
               <a href="#" class="button-infavorites button">В избранном</a>
               <div class="stars-container">
@@ -251,7 +249,7 @@
             </a>
             <div class="grid-container">
               <span class="hotel">Гостиница</span>
-              <span class="hotel-price">От 2500р</span>
+              <span class="hotel-price">От 2500 ₽</span>
               <a href="#" class="button-more button">Подробнее</a>
               <a href="#" class="button-favorites button">В избранное</a>
               <div class="stars-container">
@@ -269,7 +267,7 @@
             </a>
             <div class="grid-container">
               <span class="hotel">Гостиница</span>
-              <span class="hotel-price">От 1500р</span>
+              <span class="hotel-price">От 1500 ₽</span>
               <a href="#" class="button-more button">Подробнее</a>
               <a href="#" class="button-favorites button">В избранное</a>
               <div class="stars-container">
