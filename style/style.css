@@ -1164,13 +1164,15 @@ body {
     opacity: 0.3;
 }
 
-.control:focus .control-mark {
-    outline: 3px solid #83B3D3;
-}
+.control-input:focus + .control-mark {
+    background-color: rgba(255, 255, 255, 1);
+    outline: 3px solid #83b3d3;
+  }
 
-.control:focus .control-circle {
-    outline: 3px solid #83B3D3;
-}
+  .control-input:focus + .control-circle {
+    background-color: rgba(255, 255, 255, 1);
+    outline: 3px solid #83b3d3;
+  }
 
 .control-input + .name-filter {
     color: white;
